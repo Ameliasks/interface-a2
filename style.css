@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
 
+/* rgb(187,190,199) */
+
 body {
   background-color: rgb(234, 236, 228);
 }
@@ -21,8 +23,8 @@ p {
 }
 
 ::selection {
-  background-color: rgb(227, 223, 188);
-  color: rgb(160, 154, 100);
+  background-color: rgb(11, 40, 126);
+  color: rgb(255, 255, 255);
 }
 
 a {
