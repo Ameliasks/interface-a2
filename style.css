@@ -68,37 +68,3 @@ a {
 .topnav a.active {
   color: black;
 }
-
-/* .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:. .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.  */
-/* Intro Modal dialog */
-
-dialog[open] {
-  margin: auto; /* place in centre */
-  padding: 2rem 3rem;
-  background-color: rgb(234, 236, 228);
-  color: var(--col02);
-  border: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-p {
-  font-family: "Instrument Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 18px;
-  letter-spacing: 0.2px;
-}
-
-dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#dialogCloseButton {
-  background-color: rgb(234, 236, 228);
-  color: black;
-  padding: 0.2rem 1rem;
-}
-/* .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:. .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.  */
