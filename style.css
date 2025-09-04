@@ -3,6 +3,7 @@
 /* rgb(187,190,199) */
 body {
   background-color: rgb(234, 236, 228);
+  margin: 0px;
 }
 
 h1 {
@@ -10,7 +11,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 60px;
+  font-size: 64px;
 }
 
 h1 {
@@ -48,6 +49,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Style the links inside the navigation bar */
@@ -67,4 +70,15 @@ a {
 /* Add a color to the active/current link */
 .topnav a.active {
   color: black;
+}
+
+section {
+  background-color: lightblue; /* Background color */
+  padding: 4rem; /* Spacing inside the div */
+  text-align: left; /* Align text content */
+  height: 43rem;
+}
+
+.div-home {
+  height: 43rem;
 }
