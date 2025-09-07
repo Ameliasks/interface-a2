@@ -34,6 +34,15 @@ h2 {
   letter-spacing: -0.2px;
 }
 
+p {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  color: black;
+}
+
 ::selection {
   background-color: rgb(0, 51, 169);
   color: rgb(255, 255, 255);
@@ -74,11 +83,19 @@ a {
 
 section {
   background-color: lightblue; /* Background color */
-  padding: 4rem; /* Spacing inside the div */
+  padding: 3rem; /* Spacing inside the div */
   text-align: left; /* Align text content */
   height: 43rem;
 }
 
 .div-home {
   height: 43rem;
+}
+
+.div-body {
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 3rem;
+  width: 80%;
 }
