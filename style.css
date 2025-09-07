@@ -66,7 +66,7 @@ a {
 .topnav a {
   color: black;
   text-align: center;
-  padding: 0 3.2rem;
+  padding: 0 3.5rem;
   margin: 2rem;
   text-decoration: none;
 }
@@ -83,12 +83,16 @@ a {
 
 section {
   /* background-color: lightblue;  */
-  padding: 3rem; /* Spacing inside the div */
+  padding: 5rem; /* Spacing inside the div */
   text-align: left; /* Align text content */
 }
 
 .div-home {
-  height: 43rem;
+  height: 36rem;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .div-body {
@@ -96,5 +100,5 @@ section {
   display: flex;
   align-items: flex-end;
   padding-top: 3rem;
-  width: 80%;
+  width: 85%;
 }
