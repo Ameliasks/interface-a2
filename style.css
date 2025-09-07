@@ -82,10 +82,9 @@ a {
 }
 
 section {
-  background-color: lightblue; /* Background color */
+  /* background-color: lightblue;  */
   padding: 3rem; /* Spacing inside the div */
   text-align: left; /* Align text content */
-  height: 43rem;
 }
 
 .div-home {
