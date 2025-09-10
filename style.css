@@ -96,20 +96,32 @@ section {
 }
 .div-home-text {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: flex-end;
+  text-align: center;
+  margin-left: 200px;
 }
 
 .div-body {
   height: auto;
   display: flex;
   align-items: flex-end;
-  padding-top: 3rem;
+  padding-top: 2rem;
   width: 85%;
 }
 
 .image1 {
   position: relative;
-  width: 90%;
+  width: 100%;
   top: 30%;
+  left: -2%;
+  transform: rotate(3deg);
+}
+
+.image2 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
 }
