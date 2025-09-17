@@ -133,6 +133,7 @@ section {
 .div-type {
   height: auto;
   display: flex;
+  flex-direction: column;
   padding-top: 2rem;
   width: 85%;
 }
