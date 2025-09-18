@@ -16,6 +16,7 @@ h1 {
   margin-left: 3rem;
   margin-right: 3rem;
   letter-spacing: -1.5px;
+  margin-bottom: 0px;
 }
 
 .h1-padded {
@@ -24,8 +25,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 64px;
-  padding-top: 5rem;
-  margin-left: 0px;
+  padding-top: 2rem;
   letter-spacing: -1.5px;
 }
 
@@ -40,13 +40,24 @@ h2 {
   letter-spacing: -0.2px;
 }
 
+.p-question {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  padding-top: 2rem;
+  color: rgb(122, 122, 122);
+}
+
 p {
   font-family: "Instrument Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 21px;
+  font-size: 19px;
   color: black;
+  text-align: justify;
 }
 
 h3 {
@@ -56,7 +67,71 @@ h3 {
   font-size: 17px;
   color: black;
   display: flex;
+  margin-top: 0px;
   justify-content: center;
+  text-transform: uppercase;
+}
+
+.question {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+
+.credits {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.small {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  display: flex;
+  text-transform: uppercase;
+}
+
+.special {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(0, 51, 169);
+  display: flex;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.special:hover {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.small:hover {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(0, 51, 169);
+  display: flex;
   text-transform: uppercase;
 }
 
@@ -65,7 +140,7 @@ ul {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 21px;
+  font-size: 19px;
   color: black;
 }
 ::selection {
@@ -82,7 +157,41 @@ a {
   color: rgb(0, 51, 169);
 }
 
-/* Add a black background color to the top navigation */
+.noStyle {
+  text-decoration: none;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.noStyle:hover {
+  text-decoration: none;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: rgb(0, 51, 169);
+  display: flex;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem;
+}
+
+.specialDiv {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -40px;
+}
+
 .topnav {
   overflow: hidden;
   display: flex;
@@ -92,12 +201,11 @@ a {
   margin-bottom: 1rem;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   color: black;
   text-align: center;
-  padding: 0 3.4rem;
-  margin: 2rem;
+  padding: 0 2rem;
+  margin: 1rem;
   text-decoration: none;
 }
 
@@ -108,12 +216,12 @@ a {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 section {
   /* background-color: lightblue;  */
-  padding: 5rem; /* Spacing inside the div */
+  padding: 3rem; /* Spacing inside the div */
   text-align: left; /* Align text content */
 }
 
@@ -147,7 +255,7 @@ section {
   padding-top: 2rem;
   margin-left: 3rem;
   margin-right: 3rem;
-  width: 95%;
+  width: 90%;
 }
 
 .image1 {
@@ -177,9 +285,8 @@ section {
 .image4 {
   display: flex;
   justify-content: center;
-  width: 120%;
+  width: 100%;
   height: auto;
-  margin-left: -10%;
 }
 
 .image5 {
