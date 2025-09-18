@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* rgb(187,190,199) */
 body {
@@ -12,6 +13,8 @@ h1 {
   font-weight: 500;
   font-style: normal;
   font-size: 64px;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .h1-padded {
@@ -21,6 +24,7 @@ h1 {
   font-style: normal;
   font-size: 64px;
   padding-top: 5rem;
+  margin-left: 0px;
 }
 
 /* Nav Buttons */
@@ -45,14 +49,14 @@ p {
 }
 
 h3 {
-  font-family: "Instrument Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Space Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 ul {
@@ -135,6 +139,8 @@ section {
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   width: 85%;
 }
 
@@ -165,7 +171,27 @@ section {
 .image4 {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 130%;
   height: auto;
-  margin-left: -0%;
+  margin-left: -10%;
+}
+
+.image5 {
+  display: flex;
+  justify-content: center;
+  width: 110%;
+  height: auto;
+  margin-left: -5%;
+}
+
+.image6 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 1.5rem;
+  margin-left: -5%;
 }
