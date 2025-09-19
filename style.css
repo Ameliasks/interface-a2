@@ -90,8 +90,8 @@ h3 {
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 8rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .small {
   font-family: "Space Mono", monospace;
@@ -314,5 +314,5 @@ section {
   padding-left: 10rem;
   padding-right: 10rem;
   padding-bottom: 1.5rem;
-  margin-left: -5%;
+  margin-left: 0;
 }
